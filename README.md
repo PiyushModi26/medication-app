@@ -1,65 +1,70 @@
-# AI Health Assist: Smart Medication & Health Platform
+# Getting Started with Create React App
 
-## 📋 Project Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**AI Health Assist** is a modern, web-based application designed to help individuals and caregivers manage medication schedules and track health vitals effectively. Built with React, this application provides a secure, intuitive, and responsive user experience, focusing on minimizing missed medications and offering a centralized health snapshot.
+## Available Scripts
 
-The project features a secure login system, a dynamic dashboard with key health metrics, a comprehensive medication management system, and detailed analytical reports to provide actionable insights into a user's health journey.
+In the project directory, you can run:
 
----
+### `npm start`
 
-## ✨ Key Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* **Secure Authentication:** A complete, multi-step sign-up process with validation and a secure login system.
-* **Dynamic Dashboard:** An at-a-glance view of the most critical information, including the next scheduled medication and overall adherence rates.
-* **Medication Management:** Easily add, view, and remove medications from a persistent, time-sorted schedule.
-* **Professional Health Reports:** Visualize your health data with a weekly adherence timeline and a breakdown of medication types.
-* **Responsive Design:** A fully responsive interface that works seamlessly on desktops, tablets, and mobile devices.
-* **AI-Powered Insights (Prototyped):** The application architecture includes a prototyped feature for generating personalized health tips using the Google Gemini API.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
+### `npm test`
 
-## 🛠️ Tech Stack
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-This project was built using a modern, efficient, and lightweight tech stack.
+### `npm run build`
 
-* **Front-End:** **React.js** (using Hooks for state management)
-* **Styling:** **CSS-in-JS** (for encapsulated, component-level styling)
-* **Core Logic:** **JavaScript (ES6+)**
-* **API Communication:** **Fetch API** for interacting with external services.
-* **Version Control:** **Git & GitHub**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🚀 Getting Started
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-To get a local copy up and running, follow these simple steps.
+### `npm run eject`
 
-### Prerequisites
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Make sure you have Node.js and npm installed on your machine.
-* npm
-    ```sh
-    npm install npm@latest -g
-    ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Installation
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1.  Clone the repo
-    ```sh
-    git clone [https://github.com/your_username/ai-health-app.git](https://github.com/your_username/ai-medication-app.git)
-    ```
-2.  Navigate to the project directory
-    ```sh
-    cd ai-medication-app
-    ```
-3.  Install NPM packages
-    ```sh
-    npm install
-    ```
-4.  Start the development server
-    ```sh
-    npm start
-    ```
-The application will be running on `http://localhost:3000`.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
