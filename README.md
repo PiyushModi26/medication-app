@@ -49,11 +49,11 @@ Make sure you have Node.js and npm installed on your machine.
 
 1.  Clone the repo
     ```sh
-    git clone [https://github.com/your_username/ai-health-app.git](https://github.com/your_username/ai-health-app.git)
+    git clone [https://github.com/your_username/ai-health-app.git](https://github.com/your_username/ai-medication-app.git)
     ```
 2.  Navigate to the project directory
     ```sh
-    cd ai-health-app
+    cd ai-medication-app
     ```
 3.  Install NPM packages
     ```sh
