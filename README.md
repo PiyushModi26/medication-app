@@ -1,7 +1,5 @@
 # AI Health Assist: Smart Medication & Health Platform
 
-![Health Assist Dashboard](https://i.imgur.com/your-screenshot-url.png) <!-- Optional: Add a screenshot of your app's dashboard -->
-
 ## 📋 Project Overview
 
 **AI Health Assist** is a modern, web-based application designed to help individuals and caregivers manage medication schedules and track health vitals effectively. Built with React, this application provides a secure, intuitive, and responsive user experience, focusing on minimizing missed medications and offering a centralized health snapshot.
