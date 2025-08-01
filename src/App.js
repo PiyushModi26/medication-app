@@ -454,7 +454,7 @@ const GeminiService = {
     callGemini: async (prompt, maxRetries = 3) => {
         let chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
         const payload = { contents: chatHistory };
-        const apiKey = ""; // Put your owm API key
+        const apiKey = process.env.REACT_APP_GEMINI_API_KEY;   
         const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
 
         for (let i = 0; i < maxRetries; i++) {
